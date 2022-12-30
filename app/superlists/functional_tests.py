@@ -47,7 +47,7 @@ class NewVisitorTest(unittest.TestCase):
     self.assertIn("To-Do", header_text)
 
     # Предлагается ввести элемент списка
-    inputbox = self.browser.fin=d_element(
+    inputbox = self.browser.find_element(
       by=By.ID,
       value="id_new_item"
     )
