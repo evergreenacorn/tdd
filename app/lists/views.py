@@ -5,4 +5,5 @@ from django.http.response import HttpResponse, JsonResponse
 # Create your views here.
 def home_page(request):
     # return render(request, 'home.html')
-    return JsonResponse({'status': 'success', 'data': 'hello world'})
+    # return JsonResponse({'status': 'success', 'data': 'hello world'})
+    return HttpResponse("<!DOCTYPE html><title>To-Do lists</title></html>")
