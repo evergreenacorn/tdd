@@ -55,7 +55,7 @@ class NewVisitorTest(unittest.TestCase):
       inputbox.get_attribute("placeholder"),
       "Enter a to-do item"
     )
-    
+
     # Набираем в текстовом поле "Купить павлиньи перья"
     inputbox.send_keys("Купить павлиньи перья")
 
@@ -79,7 +79,7 @@ class NewVisitorTest(unittest.TestCase):
           for row in rows
       )
     )
-    
+
     # Текстовое поле по-прежнему приглашает добавить еще
     # один элемент.
     # Вводим: "Сделать мушку из павлиных перьев"
